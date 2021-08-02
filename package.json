@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Kovganna/goit-js-hw-09-node/issues"
   },
-  "homepage": "https://Kovganna.github.io/goit-js-hw-09-node",
+  "homepage": "https://kovganna.github.io/goit-js-hw-09-node",
   "dependencies": {
     "express": "^4.17.1",
     "gh-pages": "^3.2.3",

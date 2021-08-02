@@ -1,4 +1,4 @@
-import {galleryItems} from './app';
+import {galleryItems} from '../js/app.js';
 
 // Создание и рендер разметки по массиву данных galleryItems из app.js и предоставленному шаблону.
 // Реализация делегирования на галерее ul.js-gallery и получение url большого изображения.
