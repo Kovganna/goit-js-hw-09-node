@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js ",
+    "prestart": "echo \"It is a prestart\"",
+    "poststart": "echo \"It is a poststart\""
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,9 @@
   },
   "homepage": "https://github.com/Kovganna/goit-js-hw-09-node#readme",
   "dependencies": {
-    "isurl": "^4.0.2"
+    "express": "^4.17.1",
+    "isurl": "^4.0.2",
+    "joi": "^17.4.2",
+    "shortid": "^2.2.16"
   }
 }
