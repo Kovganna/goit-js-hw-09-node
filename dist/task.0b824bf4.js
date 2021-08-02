@@ -165,7 +165,7 @@ exports.galleryItems = galleryItems;
 },{}],"js/task.js":[function(require,module,exports) {
 "use strict";
 
-var _app = require("./app.js");
+var _app = require("./app");
 
 // Создание и рендер разметки по массиву данных galleryItems из app.js и предоставленному шаблону.
 // Реализация делегирования на галерее ul.js-gallery и получение url большого изображения.
@@ -240,7 +240,7 @@ window.addEventListener("keydown", function (event) {
     onArrowRight();
   }
 });
-},{"./app.js":"js/app.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./app":"js/app.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -268,7 +268,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62190" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53617" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
