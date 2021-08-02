@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js ",
-    "prestart": "echo \"It is a prestart\"",
-    "poststart": "echo \"It is a poststart\""
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,11 @@
     "isurl": "^4.0.2",
     "joi": "^17.4.2",
     "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "parcel-bundler": "^1.12.5"
   }
 }
